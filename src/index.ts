@@ -8,4 +8,7 @@ canvas.height = config.gridSize * config.gridY;
 document.body.append(canvas);
 
 let stage: Stage = new Stage(canvas);
-stage.run();
+stage.run({
+    x: canvas.width,
+    y: canvas.height
+});

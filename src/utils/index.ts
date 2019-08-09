@@ -14,5 +14,5 @@ export class Sensor {
     rightObstacle: number;
     downObstacle: number;
     appleX: number;
-    appley: number;
+    appleY: number;
 }
